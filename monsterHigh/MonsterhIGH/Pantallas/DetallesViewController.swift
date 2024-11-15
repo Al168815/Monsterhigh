@@ -49,12 +49,19 @@ class DetallesViewController: UIViewController {
                 if let data = data, let image = UIImage(data: data) {
                     DispatchQueue.main.async {
                         self.imageView.image = image
+                        
+                        // Obtener el color predominante de la imagen
+                        if let dominantColor = image.getDominantColor() {
+                            self.colorView.backgroundColor = dominantColor
+                        }
                     }
                 } else if let error = error {
                     print("Error al cargar la imagen: \(error)")
                 }
             }.resume()
         }
+
+
     }
 }
 

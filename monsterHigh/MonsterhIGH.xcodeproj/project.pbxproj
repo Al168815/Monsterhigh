@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2F66062CE7AEFA001E9DD7 /* GetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F66052CE7AEFA001E9DD7 /* GetColor.swift */; };
 		FB81A2332CE5108E0094802E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB81A2322CE5108E0094802E /* logo.png */; };
 		FB81A2352CE510970094802E /* MicrosoftTeams-image (1).png in Resources */ = {isa = PBXBuildFile; fileRef = FB81A2342CE510970094802E /* MicrosoftTeams-image (1).png */; };
 		FB9A2EB02CDE6EB6000F0BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A2EAF2CDE6EB6000F0BD8 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB2F66052CE7AEFA001E9DD7 /* GetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetColor.swift; sourceTree = "<group>"; };
 		FB81A2322CE5108E0094802E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FB81A2342CE510970094802E /* MicrosoftTeams-image (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MicrosoftTeams-image (1).png"; sourceTree = "<group>"; };
 		FB81A2372CE5117B0094802E /* LuchitaPayol-Tecnica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LuchitaPayol-Tecnica.ttf"; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB2F66042CE7AEDF001E9DD7 /* Metodos */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F66052CE7AEFA001E9DD7 /* GetColor.swift */,
+			);
+			path = Metodos;
+			sourceTree = "<group>";
+		};
 		FB81A2312CE510730094802E /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 		FB9A2EAE2CDE6EB6000F0BD8 /* MonsterhIGH */ = {
 			isa = PBXGroup;
 			children = (
+				FB2F66042CE7AEDF001E9DD7 /* Metodos */,
 				FB81A2362CE5111C0094802E /* Fuentes */,
 				FB81A2312CE510730094802E /* Images */,
 				FBD9DBA52CE5052B00A98579 /* Mod */,
@@ -352,6 +363,7 @@
 				FB9A2EB02CDE6EB6000F0BD8 /* AppDelegate.swift in Sources */,
 				FBFFAD902CE265C0004666EC /* MonsterFormViewController.swift in Sources */,
 				FB9A2EE42CDE7A8D000F0BD8 /* ViewControllerLista.swift in Sources */,
+				FB2F66062CE7AEFA001E9DD7 /* GetColor.swift in Sources */,
 				FB9A2EB22CDE6EB6000F0BD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
